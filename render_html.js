@@ -3,7 +3,7 @@ var url = require("url");
 var fs = require("fs");
 var qs = require("querystring");
 
-// const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 function css(request, response) {
     if (request.url === "/style.css") {
@@ -165,5 +165,5 @@ var server = http.createServer(function(request,response){
 
 });
 
-server.listen(3000);
+server.listen(port);
 console.log("server Berjalan Lancar");
