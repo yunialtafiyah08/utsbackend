@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render_html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node render_html.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
