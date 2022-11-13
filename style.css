@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: radial-gradient(#fff, #59b64d);
+    min-height: 100vh;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff #59b64d;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background: radial-gradient(#fff #59b64d);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+header.logo {
+    position: relative;
+    color: darkgray;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 800px;
+    padding-left: 100px;
+}
+
+h1 {
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 150;
+    font-family: a;
+}
+
+.tbl {
+    border-radius: 3px;
+    margin-top: 1px;
+    padding: 5px 10px 5px 10px;
+    color: #59b64d;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header ul {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img {
+    max-width: 400px;
+}
+
+.content .textBox h2 {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.content .textBox span {
+    color: olivedrab;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+
+.content .textBox p {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #59b64d;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/*----------menu buket----------*/
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+
+}
+
+.title::after {
+    content: '';
+    background: white;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row {
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+.col-3 {
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.col-3 img {
+    width: 280px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.h3 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+h4 {
+    background-color: #59b64d;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    font-family: cursive;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #59b64d;
+}
+
+.container {
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    text-align: center;
+    background: rgb(197, 245, 182);
+}
+
+.pilih {
+    float: center;
+}
+
+.ruang {
+    margin-top: 0px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+}
+
+.ruang {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "cambiria";
+    color: rgb(197, 245, 182);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+a.tbl-hijau {
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px 70px 20px 70px;
+    margin: 30px 80px 30px 80px;
+    color: #000000;
+    cursor: pointer;
+    float: inline-start;
+    font-family: "comic sans ms";
+    font-weight: 70;
+    font-size: 20px;
+    margin: 20px;
+    width: 80%;
+    line-height: 30px;
+}
+
+a.tbl-hijau:hover {
+    background: rgb(144, 255, 106);
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 1px;
+}
+
+/*---------- cari ----------*/
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#59b64d;
+}
+/*---------- login ----------*/
+.utama {
+    width: 380px;
+    margin: 7px auto;
+    border-radius: 25px;
+    background-color: #bbb;
+    box-shadow: 0 0 17px #333;
+}
+
+.awal {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.awal h3 {
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input, button {
+    width: 280px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main button {
+    padding-left: 0;
+    background-color: #59b64d;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-left: 40px;
+}
+
+.main button:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+
+.main input:hover {
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    margin-right: 120px;
+}
+
+.main span {
+    position: relative;
+} 
+
+.main i {
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 17px;
+    top: 2px;
+}
+.daftar{
+    padding-left: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+    top: 100px;
+}
+.kotak{
+    background-color: #41663c;
+    box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.5),
+            0 14px 10px rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 780px;
+    max-width: 100%;
+    height: auto;
+    padding:10px 0 30px 0;
+    margin-top: 10px;
+    color: #ffffff;  
+    margin-top: 0%;  
+}
+
+.inputForm{
+    width: 80%;
+    height: 50px;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+    margin: 8px 0 8px 0;
+    background-color: transparent;
+    border: none;   
+    color: rgb(189, 189, 189); 
+    border-bottom: 4px solid rgb(189, 189, 189);
+    
+}
+.inputForm::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.664);
+    font-size: medium;
+}
+input:focus{
+    outline: none;
+}
+
+
+form .inputForm:hover{
+    border-bottom:3px solid #53bd84;
+}
+.btnlgn{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #53bd84;
+    color: #000000;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: medium;
+    border: 0;
+    font-weight: bold;
+}
+.btnlgn:hover{
+    outline: 2px solid #53bd84;
+    background-color: #333;
+    color: #ffffff;
+}
+form.inputForm input :focus{
+    border: none;
+}
+.judul{
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.back{
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+.back:hover{
+    color: black;
+}
